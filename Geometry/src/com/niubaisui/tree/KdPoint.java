@@ -33,6 +33,13 @@ public class KdPoint {
 		this.x = x;
 	}
 	
-	
+	@Override
+	public boolean equals(Object point){
+		KdPoint data=((KdPoint)point);
+		if(data.getX()==x&&data.getY()==y){
+			return true;
+		}
+		return false;
+	}
 
 }

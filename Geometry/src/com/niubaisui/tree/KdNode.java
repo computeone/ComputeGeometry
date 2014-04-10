@@ -16,6 +16,8 @@ public class KdNode {
 	private KdNode right;
 	private KdNode parent;
 	
+	public KdNode(){	
+	}
 	public KdNode(KdPoint nodeData){
 		this.nodeData=nodeData;
 	}
@@ -56,5 +58,13 @@ public class KdNode {
 		this.parent = parent;
 	}
 
+	@Override
+	public boolean equals(Object node){
+		KdPoint data=((KdNode)node).getNodeData();
+		if(data.getX()==nodeData.getX()&&data.getY()==nodeData.getY()){
+			return true;
+		}
+		return false;
+	}
 	
 }
