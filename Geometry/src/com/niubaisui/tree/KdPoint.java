@@ -12,6 +12,9 @@ public class KdPoint {
 	private double x;
 	private double y;
 	
+	public KdPoint(){
+		
+	}
 	public KdPoint(double x,double y){
 		this.setX(x);
 		this.setY(y);
