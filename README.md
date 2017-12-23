@@ -5,4 +5,10 @@
 - PlanScanInterSection(平面扫描相交)
 - Kd Tree(kd树）
 - Bidirectional Link Table（双向链接边表)
-- DDA(DDA光栅化)
+- DDA(光栅化线段)
+- 生成凸包
+- BSP树
+- 线段树
+- 三角剖分
+- 点定位
+
