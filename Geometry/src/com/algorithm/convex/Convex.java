@@ -1,4 +1,4 @@
-package com.algorithm.rsa;
+package com.algorithm.convex;
 
 import java.util.LinkedList;
 
